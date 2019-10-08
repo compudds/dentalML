@@ -18,8 +18,8 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dental ML, Copyright, 2019 Better Search, LLP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3gB-HI-XV4">
                                 <rect key="frame" x="55" y="633" width="265" height="14"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="14" id="AiJ-b4-GhW"/>
-                                    <constraint firstAttribute="width" constant="265" id="rK2-NA-bIi"/>
+                                    <constraint firstAttribute="height" constant="14" id="41h-qO-4Co"/>
+                                    <constraint firstAttribute="width" constant="265" id="BwX-5E-BDE"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                 <nil key="textColor"/>
@@ -28,8 +28,8 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dental ML" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BWT-Lr-2Hs">
                                 <rect key="frame" x="90" y="151" width="195" height="43"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="195" id="THd-eY-b0Q"/>
-                                    <constraint firstAttribute="height" constant="43" id="nLh-F6-Kvl"/>
+                                    <constraint firstAttribute="height" constant="43" id="B2Z-No-pkm"/>
+                                    <constraint firstAttribute="width" constant="195" id="rhU-4g-Cwy"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <nil key="textColor"/>
@@ -39,19 +39,19 @@
                                 <rect key="frame" x="67.5" y="240" width="240" height="240"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="725-Qh-taY"/>
-                                    <constraint firstAttribute="height" constant="240" id="9aU-vT-wgY"/>
+                                    <constraint firstAttribute="width" constant="240" id="G9j-GI-uPK"/>
+                                    <constraint firstAttribute="height" constant="240" id="QQK-nF-TC7"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="xZa-FP-Hrr" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="2WF-ip-Xep"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3gB-HI-XV4" secondAttribute="bottom" constant="20" id="CMo-a2-xwH"/>
-                            <constraint firstItem="BWT-Lr-2Hs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="151" id="Ye1-sf-EqN"/>
-                            <constraint firstItem="xZa-FP-Hrr" firstAttribute="top" secondItem="BWT-Lr-2Hs" secondAttribute="bottom" constant="46" id="Zlh-8V-Mx6"/>
-                            <constraint firstItem="BWT-Lr-2Hs" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="abL-a3-2yY"/>
-                            <constraint firstItem="3gB-HI-XV4" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="mlK-Ki-iUO"/>
+                            <constraint firstItem="3gB-HI-XV4" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="7KG-sB-aFB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3gB-HI-XV4" secondAttribute="bottom" constant="20" id="8Hp-QK-sSY"/>
+                            <constraint firstItem="xZa-FP-Hrr" firstAttribute="top" secondItem="BWT-Lr-2Hs" secondAttribute="bottom" constant="46" id="Bzx-xk-lnv"/>
+                            <constraint firstItem="BWT-Lr-2Hs" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Km6-A6-E8c"/>
+                            <constraint firstItem="BWT-Lr-2Hs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="151" id="nHL-VL-5t5"/>
+                            <constraint firstItem="xZa-FP-Hrr" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="qBc-IM-JAp"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
