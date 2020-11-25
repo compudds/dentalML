@@ -7,41 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0705655122972DD4003BD9D5 /* RadiolucentLesions.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0705655022972DD4003BD9D5 /* RadiolucentLesions.mlmodel */; };
 		072660EA227E4C0A00576FB3 /* Icon-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 072660E9227E4C0A00576FB3 /* Icon-1024.png */; };
 		073FC5CC1FB7C45D00C27C4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073FC5CB1FB7C45D00C27C4E /* AppDelegate.swift */; };
 		073FC5CE1FB7C45D00C27C4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073FC5CD1FB7C45D00C27C4E /* ViewController.swift */; };
 		073FC5D11FB7C45D00C27C4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 073FC5CF1FB7C45D00C27C4E /* Main.storyboard */; };
 		073FC5D31FB7C45E00C27C4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 073FC5D21FB7C45E00C27C4E /* Assets.xcassets */; };
 		073FC5D61FB7C45E00C27C4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 073FC5D41FB7C45E00C27C4E /* LaunchScreen.storyboard */; };
-		07441936230343C60076A622 /* Oral Pathology.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 07441935230343C60076A622 /* Oral Pathology.mlmodel */; };
-		077945A41FCF4CF000B930C7 /* opencv2 in Frameworks */ = {isa = PBXBuildFile; fileRef = 077945A31FCF4CF000B930C7 /* opencv2 */; };
-		078EDD2A227F0B65006DACD1 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078EDD29227F0B65006DACD1 /* Alamofire.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		079F814722943CA8000E2048 /* OralPathologyOriginal.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 079F814622943CA8000E2048 /* OralPathologyOriginal.mlmodel */; };
+		076FE817256EE31D00F314A4 /* ImplantImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 076FE816256EE31D00F314A4 /* ImplantImageClassifier.mlmodel */; };
+		076FE81D256EFB3B00F314A4 /* OralPathology.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 076FE81B256EFB3900F314A4 /* OralPathology.mlmodel */; };
+		076FE81E256EFB3B00F314A4 /* RadiolucentImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 076FE81C256EFB3B00F314A4 /* RadiolucentImageClassifier.mlmodel */; };
 		07AFB4AC227A5BE40053D36C /* IMG_0709.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 07AFB4AB227A5BE40053D36C /* IMG_0709.jpg */; };
-		07B845C8233BFCE70078E432 /* SwiftyDropbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B845C7233BFCE70078E432 /* SwiftyDropbox.framework */; };
-		07B845C9233BFCE70078E432 /* SwiftyDropbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07B845C7233BFCE70078E432 /* SwiftyDropbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		07CE027C227B9F1C00CDD374 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CE027B227B9F1C00CDD374 /* Reachability.swift */; };
-		07E349242275EE2A00F11D14 /* ImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 07E349232275EE2A00F11D14 /* ImageClassifier.mlmodel */; };
 		07E34926227910D700F11D14 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E34925227910D700F11D14 /* UploadViewController.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		07922904227B31DA000A9E26 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 12;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				07B845C9233BFCE70078E432 /* SwiftyDropbox.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		0705655022972DD4003BD9D5 /* RadiolucentLesions.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = RadiolucentLesions.mlmodel; path = "../../../Machine Learning/ML Models/RadiolucentLesions.mlmodel"; sourceTree = "<group>"; };
 		072660E9227E4C0A00576FB3 /* Icon-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-1024.png"; sourceTree = "<group>"; };
 		073FC5C81FB7C45C00C27C4E /* Dental ML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dental ML.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		073FC5CB1FB7C45D00C27C4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,15 +30,12 @@
 		073FC5D21FB7C45E00C27C4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		073FC5D51FB7C45E00C27C4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		073FC5D71FB7C45E00C27C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		07441935230343C60076A622 /* Oral Pathology.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "Oral Pathology.mlmodel"; path = "../../../Machine Learning/ML Models/Oral Pathology.mlmodel"; sourceTree = "<group>"; };
-		077945A31FCF4CF000B930C7 /* opencv2 */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = opencv2; path = ../../Downloads/opencv2.framework/Versions/A/opencv2; sourceTree = "<group>"; };
-		078EDD29227F0B65006DACD1 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		076FE816256EE31D00F314A4 /* ImplantImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ImplantImageClassifier.mlmodel; sourceTree = "<group>"; };
+		076FE81B256EFB3900F314A4 /* OralPathology.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = OralPathology.mlmodel; sourceTree = "<group>"; };
+		076FE81C256EFB3B00F314A4 /* RadiolucentImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = RadiolucentImageClassifier.mlmodel; sourceTree = "<group>"; };
 		07922907227B4013000A9E26 /* Implants ML.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Implants ML.entitlements"; sourceTree = "<group>"; };
-		079F814622943CA8000E2048 /* OralPathologyOriginal.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = OralPathologyOriginal.mlmodel; path = "../../../Machine Learning/ML Models/OralPathologyOriginal.mlmodel"; sourceTree = "<group>"; };
 		07AFB4AB227A5BE40053D36C /* IMG_0709.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0709.jpg; sourceTree = "<group>"; };
-		07B845C7233BFCE70078E432 /* SwiftyDropbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyDropbox.framework; path = Carthage/Build/iOS/SwiftyDropbox.framework; sourceTree = "<group>"; };
 		07CE027B227B9F1C00CDD374 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
-		07E349232275EE2A00F11D14 /* ImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ImageClassifier.mlmodel; sourceTree = "<group>"; };
 		07E34925227910D700F11D14 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,9 +44,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				077945A41FCF4CF000B930C7 /* opencv2 in Frameworks */,
-				07B845C8233BFCE70078E432 /* SwiftyDropbox.framework in Frameworks */,
-				078EDD2A227F0B65006DACD1 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +53,8 @@
 		073FC5BF1FB7C45C00C27C4E = {
 			isa = PBXGroup;
 			children = (
-				078EDD29227F0B65006DACD1 /* Alamofire.framework */,
 				07922907227B4013000A9E26 /* Implants ML.entitlements */,
-				07E349232275EE2A00F11D14 /* ImageClassifier.mlmodel */,
-				073FC5CA1FB7C45D00C27C4E /* MachineLearning */,
+				073FC5CA1FB7C45D00C27C4E /* DentalML */,
 				073FC5C91FB7C45C00C27C4E /* Products */,
 				077945A21FCF4CEF00B930C7 /* Frameworks */,
 			);
@@ -96,31 +68,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		073FC5CA1FB7C45D00C27C4E /* MachineLearning */ = {
+		073FC5CA1FB7C45D00C27C4E /* DentalML */ = {
 			isa = PBXGroup;
 			children = (
 				073FC5CB1FB7C45D00C27C4E /* AppDelegate.swift */,
 				073FC5CD1FB7C45D00C27C4E /* ViewController.swift */,
 				07E34925227910D700F11D14 /* UploadViewController.swift */,
-				073FC5CF1FB7C45D00C27C4E /* Main.storyboard */,
-				079F814622943CA8000E2048 /* OralPathologyOriginal.mlmodel */,
-				07441935230343C60076A622 /* Oral Pathology.mlmodel */,
-				0705655022972DD4003BD9D5 /* RadiolucentLesions.mlmodel */,
 				07CE027B227B9F1C00CDD374 /* Reachability.swift */,
+				073FC5CF1FB7C45D00C27C4E /* Main.storyboard */,
+				076FE816256EE31D00F314A4 /* ImplantImageClassifier.mlmodel */,
+				076FE81C256EFB3B00F314A4 /* RadiolucentImageClassifier.mlmodel */,
+				076FE81B256EFB3900F314A4 /* OralPathology.mlmodel */,
 				073FC5D21FB7C45E00C27C4E /* Assets.xcassets */,
 				07AFB4AB227A5BE40053D36C /* IMG_0709.jpg */,
 				072660E9227E4C0A00576FB3 /* Icon-1024.png */,
 				073FC5D41FB7C45E00C27C4E /* LaunchScreen.storyboard */,
 				073FC5D71FB7C45E00C27C4E /* Info.plist */,
 			);
-			path = MachineLearning;
+			path = DentalML;
 			sourceTree = "<group>";
 		};
 		077945A21FCF4CEF00B930C7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				07B845C7233BFCE70078E432 /* SwiftyDropbox.framework */,
-				077945A31FCF4CF000B930C7 /* opencv2 */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -135,8 +105,6 @@
 				073FC5C41FB7C45C00C27C4E /* Sources */,
 				073FC5C51FB7C45C00C27C4E /* Frameworks */,
 				073FC5C61FB7C45C00C27C4E /* Resources */,
-				07922904227B31DA000A9E26 /* Embed Frameworks */,
-				078EDD34227F287B006DACD1 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -154,7 +122,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = "Better Search, LLC";
 				TargetAttributes = {
 					073FC5C71FB7C45C00C27C4E = {
@@ -202,41 +170,18 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		078EDD34227F287B006DACD1 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/SwiftyDropbox.framework",
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		073FC5C41FB7C45C00C27C4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				079F814722943CA8000E2048 /* OralPathologyOriginal.mlmodel in Sources */,
 				07CE027C227B9F1C00CDD374 /* Reachability.swift in Sources */,
+				076FE81D256EFB3B00F314A4 /* OralPathology.mlmodel in Sources */,
+				076FE81E256EFB3B00F314A4 /* RadiolucentImageClassifier.mlmodel in Sources */,
 				07E34926227910D700F11D14 /* UploadViewController.swift in Sources */,
-				07441936230343C60076A622 /* Oral Pathology.mlmodel in Sources */,
-				07E349242275EE2A00F11D14 /* ImageClassifier.mlmodel in Sources */,
+				076FE817256EE31D00F314A4 /* ImplantImageClassifier.mlmodel in Sources */,
 				073FC5CE1FB7C45D00C27C4E /* ViewController.swift in Sources */,
 				073FC5CC1FB7C45D00C27C4E /* AppDelegate.swift in Sources */,
-				0705655122972DD4003BD9D5 /* RadiolucentLesions.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +232,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -346,6 +292,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -379,19 +326,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 21;
+				CURRENT_PROJECT_VERSION = 26;
 				DEVELOPMENT_TEAM = 24Q366W5BQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = MachineLearning/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DentalML/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.7;
+				MARKETING_VERSION = 3.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bettersearchllc..MachineLearning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -404,19 +351,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 21;
+				CURRENT_PROJECT_VERSION = 26;
 				DEVELOPMENT_TEAM = 24Q366W5BQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = MachineLearning/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DentalML/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.7;
+				MARKETING_VERSION = 3.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bettersearchllc..MachineLearning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
