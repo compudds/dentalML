@@ -13,9 +13,9 @@
 		073FC5D11FB7C45D00C27C4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 073FC5CF1FB7C45D00C27C4E /* Main.storyboard */; };
 		073FC5D31FB7C45E00C27C4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 073FC5D21FB7C45E00C27C4E /* Assets.xcassets */; };
 		073FC5D61FB7C45E00C27C4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 073FC5D41FB7C45E00C27C4E /* LaunchScreen.storyboard */; };
-		076FE817256EE31D00F314A4 /* ImplantImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 076FE816256EE31D00F314A4 /* ImplantImageClassifier.mlmodel */; };
-		076FE81D256EFB3B00F314A4 /* OralPathology.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 076FE81B256EFB3900F314A4 /* OralPathology.mlmodel */; };
-		076FE81E256EFB3B00F314A4 /* RadiolucentImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 076FE81C256EFB3B00F314A4 /* RadiolucentImageClassifier.mlmodel */; };
+		078E9C81275D1FB6006685E3 /* ImplantImageClassifier1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 078E9C80275D1FB6006685E3 /* ImplantImageClassifier1.mlmodel */; };
+		078E9C87275D209F006685E3 /* RadiolucentImageClassifier1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 078E9C86275D209F006685E3 /* RadiolucentImageClassifier1.mlmodel */; };
+		078E9C89275D20BD006685E3 /* OralPathology1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 078E9C88275D20BD006685E3 /* OralPathology1.mlmodel */; };
 		07AFB4AC227A5BE40053D36C /* IMG_0709.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 07AFB4AB227A5BE40053D36C /* IMG_0709.jpg */; };
 		07CE027C227B9F1C00CDD374 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CE027B227B9F1C00CDD374 /* Reachability.swift */; };
 		07E34926227910D700F11D14 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E34925227910D700F11D14 /* UploadViewController.swift */; };
@@ -30,9 +30,9 @@
 		073FC5D21FB7C45E00C27C4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		073FC5D51FB7C45E00C27C4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		073FC5D71FB7C45E00C27C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		076FE816256EE31D00F314A4 /* ImplantImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ImplantImageClassifier.mlmodel; sourceTree = "<group>"; };
-		076FE81B256EFB3900F314A4 /* OralPathology.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = OralPathology.mlmodel; sourceTree = "<group>"; };
-		076FE81C256EFB3B00F314A4 /* RadiolucentImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = RadiolucentImageClassifier.mlmodel; sourceTree = "<group>"; };
+		078E9C80275D1FB6006685E3 /* ImplantImageClassifier1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = ImplantImageClassifier1.mlmodel; path = "../../../Machine Learning/Create ML Projects/ImplantImageClassifier1.mlmodel"; sourceTree = "<group>"; };
+		078E9C86275D209F006685E3 /* RadiolucentImageClassifier1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = RadiolucentImageClassifier1.mlmodel; path = "../../../Machine Learning/Create ML Projects/RadiolucentImageClassifier1.mlmodel"; sourceTree = "<group>"; };
+		078E9C88275D20BD006685E3 /* OralPathology1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = OralPathology1.mlmodel; path = "../../../Machine Learning/Create ML Projects/OralPathology1.mlmodel"; sourceTree = "<group>"; };
 		07922907227B4013000A9E26 /* Implants ML.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Implants ML.entitlements"; sourceTree = "<group>"; };
 		07AFB4AB227A5BE40053D36C /* IMG_0709.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0709.jpg; sourceTree = "<group>"; };
 		07CE027B227B9F1C00CDD374 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
@@ -76,10 +76,10 @@
 				07E34925227910D700F11D14 /* UploadViewController.swift */,
 				07CE027B227B9F1C00CDD374 /* Reachability.swift */,
 				073FC5CF1FB7C45D00C27C4E /* Main.storyboard */,
-				076FE816256EE31D00F314A4 /* ImplantImageClassifier.mlmodel */,
-				076FE81C256EFB3B00F314A4 /* RadiolucentImageClassifier.mlmodel */,
-				076FE81B256EFB3900F314A4 /* OralPathology.mlmodel */,
 				073FC5D21FB7C45E00C27C4E /* Assets.xcassets */,
+				078E9C80275D1FB6006685E3 /* ImplantImageClassifier1.mlmodel */,
+				078E9C86275D209F006685E3 /* RadiolucentImageClassifier1.mlmodel */,
+				078E9C88275D20BD006685E3 /* OralPathology1.mlmodel */,
 				07AFB4AB227A5BE40053D36C /* IMG_0709.jpg */,
 				072660E9227E4C0A00576FB3 /* Icon-1024.png */,
 				073FC5D41FB7C45E00C27C4E /* LaunchScreen.storyboard */,
@@ -176,11 +176,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				07CE027C227B9F1C00CDD374 /* Reachability.swift in Sources */,
-				076FE81D256EFB3B00F314A4 /* OralPathology.mlmodel in Sources */,
-				076FE81E256EFB3B00F314A4 /* RadiolucentImageClassifier.mlmodel in Sources */,
+				078E9C81275D1FB6006685E3 /* ImplantImageClassifier1.mlmodel in Sources */,
+				078E9C87275D209F006685E3 /* RadiolucentImageClassifier1.mlmodel in Sources */,
 				07E34926227910D700F11D14 /* UploadViewController.swift in Sources */,
-				076FE817256EE31D00F314A4 /* ImplantImageClassifier.mlmodel in Sources */,
 				073FC5CE1FB7C45D00C27C4E /* ViewController.swift in Sources */,
+				078E9C89275D20BD006685E3 /* OralPathology1.mlmodel in Sources */,
 				073FC5CC1FB7C45D00C27C4E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,7 +326,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 26;
+				CURRENT_PROJECT_VERSION = 27;
 				DEVELOPMENT_TEAM = 24Q366W5BQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -338,7 +338,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.2;
+				MARKETING_VERSION = 3.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bettersearchllc..MachineLearning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -351,7 +351,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 26;
+				CURRENT_PROJECT_VERSION = 27;
 				DEVELOPMENT_TEAM = 24Q366W5BQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -363,7 +363,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.2;
+				MARKETING_VERSION = 3.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bettersearchllc..MachineLearning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

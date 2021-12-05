@@ -1,0 +1,12 @@
+{
+  "MLModelVersionStringKey" : "12-5-2021",
+  "MLModelDescriptionKey" : "A machine learning model that has been trained to recognize images. When you give it an image, it responds with a label for that image.",
+  "MLModelCreatorDefinedKey" : {
+    "com.apple.createml.app.tag" : "53.1",
+    "com.apple.createml.version" : "11.0.1",
+    "com.apple.createml.app.version" : "2.0",
+    "com.apple.coreml.model.preview.type" : "imageClassifier"
+  },
+  "MLModelAuthorKey" : "Eric Cook",
+  "MLModelLicenseKey" : "--"
+}

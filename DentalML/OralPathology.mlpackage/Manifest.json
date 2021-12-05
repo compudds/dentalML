@@ -1,0 +1,24 @@
+{
+    "fileFormatVersion": "1.0.0",
+    "itemInfoEntries": {
+        "433F88D1-5CE5-493B-8B69-9928CFB32114": {
+            "author": "com.apple.CoreML",
+            "description": "External FeatureDescription Overlay",
+            "name": "FeatureDescriptions.json",
+            "path": "com.apple.CoreML/FeatureDescriptions.json"
+        },
+        "815E7FC4-9AFF-4CBE-B4E2-403A476D2C7E": {
+            "author": "com.apple.CoreML",
+            "description": "External Metadata Overlay",
+            "name": "Metadata.json",
+            "path": "com.apple.CoreML/Metadata.json"
+        },
+        "DF96CC87-86D7-4663-B0CA-C4F154B247D1": {
+            "author": "com.apple.CoreML",
+            "description": "CoreML Model Specification",
+            "name": "OralPathology.mlmodel",
+            "path": "com.apple.CoreML/OralPathology.mlmodel"
+        }
+    },
+    "rootModelIdentifier": "DF96CC87-86D7-4663-B0CA-C4F154B247D1"
+}

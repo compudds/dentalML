@@ -1,0 +1,24 @@
+{
+    "fileFormatVersion": "1.0.0",
+    "itemInfoEntries": {
+        "5F6D96A1-E279-46CE-9D77-84A1E579F06D": {
+            "author": "com.apple.CoreML",
+            "description": "External Metadata Overlay",
+            "name": "Metadata.json",
+            "path": "com.apple.CoreML/Metadata.json"
+        },
+        "6082E7F9-FAA4-487C-B166-6592DEAE2F09": {
+            "author": "com.apple.CoreML",
+            "description": "External FeatureDescription Overlay",
+            "name": "FeatureDescriptions.json",
+            "path": "com.apple.CoreML/FeatureDescriptions.json"
+        },
+        "719DFBB7-E5E6-4A1C-AEC5-5B39A6F52077": {
+            "author": "com.apple.CoreML",
+            "description": "CoreML Model Specification",
+            "name": "ImplantImageClassifier.mlmodel",
+            "path": "com.apple.CoreML/ImplantImageClassifier.mlmodel"
+        }
+    },
+    "rootModelIdentifier": "719DFBB7-E5E6-4A1C-AEC5-5B39A6F52077"
+}
